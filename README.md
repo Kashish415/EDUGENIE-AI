@@ -22,8 +22,8 @@ EduGenie AI is a generative AI-powered educational tool designed to assist users
 ## Installation
 - **Prerequisites** : Python 3.10 or above
 - **API keys for**:
--> LangChain API
--> Google Generative AI (Gemini Pro)
+  1. LangChain API
+  2. Google Generative AI (Gemini Pro)
 
 ## Setup Instructions
 
@@ -65,9 +65,6 @@ Contributions are welcome! Please submit a pull request or open an issue if you 
 
 1. Fork the repository.
 2. Create a new branch for your feature/bug fix.
-
-git checkout -b feature/your-feature-name
-
 3. Commit your changes and push the branch.
 4. Submit a pull request for review.
 
