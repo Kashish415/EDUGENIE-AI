@@ -38,7 +38,8 @@ cd edugenie-ai
 python -m venv venv
 
 source venv/bin/activate 
-# On Windows,
+
+On Windows,
 
 use `venv\Scripts\activate`
 
