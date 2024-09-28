@@ -29,37 +29,35 @@ EduGenie AI is a generative AI-powered educational tool designed to assist users
 
 1. **Clone the repository**:
 
-git clone https://github.com/your-repo/edugenie-ai.git
+   git clone https://github.com/your-repo/edugenie-ai.git
 
-cd edugenie-ai
+   cd edugenie-ai
 
 2. **Create a virtual environment (optional but recommended)**:
 
-python -m venv venv
+   python -m venv venv
 
-source venv/bin/activate 
+   source venv/bin/activate 
 
-On Windows,
-
-use `venv\Scripts\activate`
+   On Windows, use `venv\Scripts\activate`
 
 3. **Install dependencies**:
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. **Create a .env file in the root directory and add your API keys**:
 
-LANGCHAIN_API_KEY=your_langchain_api_key
+   LANGCHAIN_API_KEY=your_langchain_api_key
 
-GOOGLE_API_KEY=your_google_api_key
+   GOOGLE_API_KEY=your_google_api_key
 
 5. **Run the application**:
    
-streamlit run app.py
+   streamlit run app.py
 
 6. **Access the app**:
    
-Open your browser and go to http://localhost:8501 to interact with EduGenie AI.
+   Open your browser and go to http://localhost:8501 to interact with EduGenie AI.
 
 ## File Structure
 
