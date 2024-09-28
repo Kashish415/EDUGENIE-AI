@@ -34,11 +34,10 @@ git clone https://github.com/your-repo/edugenie-ai.git
 cd edugenie-ai
 
 2. **Create a virtual environment (optional but recommended)**:
-3. 
+
 python -m venv venv
 
 source venv/bin/activate 
-
 # On Windows,
 
 use `venv\Scripts\activate`
