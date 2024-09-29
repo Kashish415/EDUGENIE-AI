@@ -102,7 +102,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# App Title
+# Adding App Title
 st.markdown("<h1>EDUGENIE AI ✨</h1>", unsafe_allow_html=True)
 st.markdown("<h3><em>Where knowledge begins</em></h3>", unsafe_allow_html=True)
 
@@ -116,7 +116,7 @@ def generate_response(prompt):
     except Exception as e:
         return f"Error: {str(e)}"
 
-# Input Field
+# Adding an Input Field
 user_input = st.text_input("", placeholder="Ask anything...")
 
 # Generate Button
