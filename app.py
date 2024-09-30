@@ -32,9 +32,19 @@ def generate_response(user_query):
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# App Title
+# Adding App Title
 st.markdown("<h1>EDUGENIE AI ✨</h1>", unsafe_allow_html=True)
 st.markdown("<h3><em>Where knowledge begins</em></h3>", unsafe_allow_html=True)
+
+# Function to call Google Generative AI for response
+def generate_response(prompt):
+    try:
+        # Initialize the GoogleGenerativeAI model
+        model = GoogleGenerativeAI(api_key=api_key)
+        response = model.complete(prompt=prompt, max_tokens=150, temperature=0.7)
+        return response.text.strip()
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 # Input Field
 user_input = st.text_input("", placeholder="Ask anything...")
