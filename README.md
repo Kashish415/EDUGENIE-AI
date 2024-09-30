@@ -1,20 +1,19 @@
 # EduGenie AI
 
-EduGenie AI is a generative AI-powered educational tool designed to assist users in generating comprehensive content across various topics. By leveraging cutting-edge AI models, this application delivers instant insights and learning support, making education more interactive and accessible.
+EduGenie AI is your personal educational companion, powered by generative AI. Designed to make learning engaging and accessible, this tool helps users generate in-depth content on a wide range of topics. By harnessing the latest AI technologies, EduGenie AI provides instant insights and support, transforming the way we learn.
 
 ## Features
 
-- **AI Content Generation** : Generates detailed overviews and explanations based on user-provided topics, ensuring high-quality educational content.
+- **Smart Content Generation** : EduGenie AI crafts detailed overviews and explanations tailored to your interests. Just provide a topic, and watch as it generates high-quality educational content that meets your needs.
 
-- **User-Friendly Interface**: A simple and intuitive design built using Streamlit for seamless navigation.
+- **User-Friendly Interface** : With a clean and intuitive design built using Streamlit, navigating through EduGenie AI is a breeze, ensuring a smooth learning experience.
 
-- **Real-Time Interaction**: Provides instant responses to user queries, enabling efficient learning.
+- **Real-Time Interaction** : Get instant answers to your questions, making learning more efficient and enjoyable. Whether you're curious about a specific subject or need clarification on a concept, EduGenie AI is here to help you every step of the way.
 
 ## Tech Stack
 
 - **Programming Language**: Python
 - **Frameworks**:
- **LangChain**: For managing prompts and interactions with the language models.
  **Streamlit**: For building a responsive and interactive web interface.
 - **APIs**:
  **Google Generative AI (Gemini Pro)**: Used for generating insightful content with advanced natural language processing capabilities.
@@ -22,8 +21,7 @@ EduGenie AI is a generative AI-powered educational tool designed to assist users
 ## Installation
 - **Prerequisites** : Python 3.10 or above
 - **API keys for**:
-  1. LangChain API
-  2. Google Generative AI (Gemini Pro)
+  -- Google Generative AI (Gemini Pro)
 
 ## Setup Instructions
 
@@ -46,16 +44,14 @@ EduGenie AI is a generative AI-powered educational tool designed to assist users
    pip install -r requirements.txt
 
 4. **Create a .env file in the root directory and add your API keys**:
-
-   LANGCHAIN_API_KEY=your_langchain_api_key
-
+   
    GOOGLE_API_KEY=your_google_api_key
 
-5. **Run the application**:
+6. **Run the application**:
    
    streamlit run app.py
 
-6. **Access the app**:
+7. **Access the app**:
    
    Open your browser and go to http://localhost:8501 to interact with EduGenie AI.
 
