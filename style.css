@@ -1,19 +1,12 @@
 body {
     background-color: black;  /* Black background */
     color: white;  /* White text color */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    text-align: center;
-    padding: 2rem 0;
 }
 
 h1 {
     font-size: 4em;
     font-weight: bold;
+    text-align: center;
     background: linear-gradient(135deg, #8A2BE2, #FF69B4, #00BFFF); /* Gradient for text */
     -webkit-background-clip: text;
     color: transparent;
@@ -21,17 +14,19 @@ h1 {
 
 h3 {
     font-style: italic;
+    text-align: center;
     margin-top: -20px;
     background: linear-gradient(135deg, #8A2BE2, #FF69B4, #00BFFF); /* Gradient for text */
     -webkit-background-clip: text;
     color: transparent;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
+.stApp {
+    background-color: black;  /* Black background for the whole app */
+}
+
+.css-18ni7ap, .css-1cpxqw2 {  /* Streamlit top bar */
+    background-color: black !important;
 }
 
 input {
@@ -42,8 +37,7 @@ input {
     padding: 10px;
     border-radius: 10px;
     width: 100%;
-    max-width: 600px;  /* Limit input width */
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 input:focus {
@@ -51,7 +45,20 @@ input:focus {
     box-shadow: none !important;
 }
 
-button {
+.stTextInput>div>div>input {
+    background-color: #333;  /* Dark gray */
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 10px;
+}
+
+.stTextInput>div>div>input:focus {
+    box-shadow: none;
+    border: 1px solid white;  /* White border on focus */
+}
+
+.stButton button {
     background-color: white;  /* White button */
     border: none;
     padding: 0.75rem 1.5rem;
@@ -59,11 +66,10 @@ button {
     border-radius: 10px;
     color: black;
     font-weight: bold;
-    cursor: pointer;
     transition: box-shadow 0.1s ease-in-out;
 }
 
-button:hover {
+.stButton button:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  /* White glow effect */
 }
 
@@ -72,15 +78,13 @@ button:hover {
     padding: 20px; 
     border-radius: 10px; 
     margin-top: 20px;
-    max-width: 600px;  /* Limit response box width */
 }
 
 footer {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1rem;  /* Increased font size */
     background: linear-gradient(135deg, #8A2BE2, #FF69B4, #00BFFF); /* Gradient for text */
     -webkit-background-clip: text;
     color: transparent;
     margin-top: 6rem;  /* Positioned lower */
-    padding: 1rem 0;
 }
