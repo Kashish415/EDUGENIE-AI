@@ -13,7 +13,11 @@ api_key = os.getenv("GOOGLE_API_KEY")
 # Function to call Google Generative AI for response
 def generate_response(user_query):
     try:
-        # Initialize the Google Generative AI LLM
+        # Check if API key is loaded properly
+        if not api_key:
+            return "API Key is missing. Please check your .env file."
+
+        # Initialize the Google Generative AI LLM with api_key and model
         llm = GoogleGenerativeAI(api_key=api_key, model='gemini-pro', temperature=0.1)
         
         # Define the chat prompt template
@@ -35,16 +39,6 @@ with open("style.css") as f:
 # Adding App Title
 st.markdown("<h1>EDUGENIE AI ✨</h1>", unsafe_allow_html=True)
 st.markdown("<h3><em>Where knowledge begins</em></h3>", unsafe_allow_html=True)
-
-# Function to call Google Generative AI for response
-def generate_response(prompt):
-    try:
-        # Initialize the GoogleGenerativeAI model
-        model = GoogleGenerativeAI(api_key=api_key)
-        response = model.complete(prompt=prompt, max_tokens=150, temperature=0.7)
-        return response.text.strip()
-    except Exception as e:
-        return f"Error: {str(e)}"
 
 # Input Field
 user_input = st.text_input("", placeholder="Ask anything...")
