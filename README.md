@@ -12,7 +12,7 @@ EduGenie AI is your personal educational companion, powered by generative AI. De
 
 ## Tech Stack
 
-- **Programming Language**: Python
+- **Programming Language**: Python , HTML , CSS
 - **Frameworks**:
  **Streamlit**: For building a responsive and interactive web interface.
 - **APIs**:
@@ -29,17 +29,7 @@ EduGenie AI is your personal educational companion, powered by generative AI. De
 
    git clone https://github.com/your-repo/edugenie-ai.git
 
-   cd edugenie-ai
-
-2. **Create a virtual environment (optional but recommended)**:
-
-   python -m venv venv
-
-   source venv/bin/activate 
-
-   On Windows, use `venv\Scripts\activate`
-
-3. **Install dependencies**:
+2. **Install dependencies**:
    
    pip install -r requirements.txt
 
@@ -47,7 +37,7 @@ EduGenie AI is your personal educational companion, powered by generative AI. De
    
    GOOGLE_API_KEY=your_google_api_key
 
-6. **Run the application**:
+6. **Run the application by the below command**:
    
    streamlit run app.py
 
