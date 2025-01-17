@@ -63,5 +63,5 @@ Contributions are welcome! Please submit a pull request or open an issue if you 
 4. Submit a pull request for review.
 
 PROJECT IS LIVE ON A STREAMLIT APP.
-FEEL FREE TO EXPERIMENT YOURSELF !!😄
+ FEEL FREE TO EXPERIMENT YOURSELF !! 😄
 
