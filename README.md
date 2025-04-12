@@ -62,6 +62,4 @@ Contributions are welcome! Please submit a pull request or open an issue if you 
 3. Commit your changes and push the branch.
 4. Submit a pull request for review.
 
-PROJECT IS LIVE.
- FEEL FREE TO EXPERIMENT YOURSELF !! 😄
 
