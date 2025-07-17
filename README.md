@@ -41,9 +41,6 @@ EduGenie AI is your personal educational companion, powered by generative AI. De
    
    streamlit run app.py
 
-7. **Access the app**:
-   
-   Open your browser and go to http://localhost:8501 to interact with EduGenie AI.
 
 ## File Structure
 
